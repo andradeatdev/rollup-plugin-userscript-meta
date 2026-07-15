@@ -1,0 +1,46 @@
+{
+  "name": "rollup-plugin-userscript-meta",
+  "version": "1.0.1",
+  "description": "Rollup plugin to generate userscript metadatablocks.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build:js": "tsup",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build": "npm run build:js && npm run build:types",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "userscript",
+    "violentmonkey",
+    "tampermonkey",
+    "greasemonkey"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "rollup": "^4.62.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rollup-plugin-userscript-meta"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "hdyzen",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,29 +1,29 @@
-# rollup-plugin-userscript-meta
+# @hdyzen/rollup-plugin-userscript-meta
 
 Rollup plugin to generate userscript metadatablocks (`// ==UserScript==`).
 
 ## Installation
 
 ```bash
-npm install rollup-plugin-userscript-meta
+npm install @hdyzen/rollup-plugin-userscript-meta
 ```
 
 ```bash
-pnpm add rollup-plugin-userscript-meta
+pnpm add @hdyzen/rollup-plugin-userscript-meta
 ```
 
 ```bash
-yarn add rollup-plugin-userscript-meta
+yarn add @hdyzen/rollup-plugin-userscript-meta
 ```
 
 ```bash
-bun add rollup-plugin-userscript-meta
+bun add @hdyzen/rollup-plugin-userscript-meta
 ```
 
 ## Usage
 
 ```js
-import metablock from "rollup-plugin-userscript-meta";
+import metablock from "@hdyzen/rollup-plugin-userscript-meta";
 
 export default {
   plugins: [

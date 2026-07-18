@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-userscript-meta",
-  "version": "1.0.2",
+  "name": "@hdyzen/rollup-plugin-userscript-meta",
+  "version": "1.0.0",
   "description": "Rollup plugin to generate userscript metadatablocks.",
   "type": "module",
   "main": "./dist/index.js",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "rollup-plugin-userscript-meta"
+    "url": "git+https://github.com/andradeatdev/rollup-plugin-userscript-meta.git"
   },
   "files": [
     "dist"

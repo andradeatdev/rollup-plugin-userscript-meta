@@ -20,6 +20,7 @@ export type Metablock = {
 	homepageURL?: string;
 	unwrap?: boolean;
 	tag?: [string, ...string[]];
+	[key: string]: unknown;
 };
 
 export type I18n = {
